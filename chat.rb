@@ -26,7 +26,7 @@ __END__
 @@ layout
 <html>
   <head> 
-    <title>Super Simple Chat with Sinatra</title> 
+    <title>Chat de #hermosillorb</title> 
     <meta charset="utf-8" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
   </head> 
@@ -35,9 +35,9 @@ __END__
 
 @@ login
 <form action='/'>
-  <label for='user'>User Name:</label>
+  <label for='user'>Nombre de Usuario:</label>
   <input name='user' value='' />
-  <input type='submit' value="GO!" />
+  <input type='submit' value="A CHATEAR!" />
 </form>
 
 @@ chat
@@ -57,5 +57,5 @@ __END__
 </script>
 
 <form>
-  <input id='msg' placeholder='type message here...' />
+  <input id='msg' placeholder='escribe mensaje aquí...' />
 </form>
